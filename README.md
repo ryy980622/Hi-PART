@@ -16,7 +16,7 @@ The code has been tested running under Python 3.7.0. The required packages are a
 * networkx == 2.5.1
 
 
-*Preprocess
+* Preprocess
 
 ```
 python src/utils/graph_augmentation.py 
