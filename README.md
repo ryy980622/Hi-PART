@@ -39,23 +39,22 @@ Some important hyperparameters:
   * It indicates the batch size. 
   * We search the batch size within {16, 32}.
 
-* `h_dim'`
+* `h_dim`
   * It indicates the latent dimension of node embeddings. 
   * We search the latent dimension within {16, 32, 128}.
 
-* `K'`
+* `K`
   * It indicates the height of HPT. 
   * We search the height of HPT within {3, 4, 5}.
 
-
-* `L_o'`
+* `L_o`
   * It indicates the GNN layer number of original graphs. 
   * We search L_o within {1, 2, 3}.
 
-
-* `L_t'`
+* `L_t`
   * It indicates the GNN layer number of HPTs. 
   * We search L_o within {2, 3, 4}.
+```
 
 ## Dataset
 We provide one processed dataset: MUTAG.
