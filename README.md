@@ -57,7 +57,7 @@ Some important hyperparameters:
 ```
 
 ## Dataset
-We provide one processed dataset: MUTAG.
+We provide the processed datasets in the experiments. Take MUTAG as an example.
 * `MUTAG.txt`
   * Train file.
   * For each graph, the first line denotes the graph size and label.
